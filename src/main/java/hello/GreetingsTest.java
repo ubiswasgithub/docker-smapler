@@ -21,5 +21,10 @@ public class GreetingsTest {
 	public void test3() {
 		Assert.assertTrue(obj.sayHello("Manish").contains("Hello"));
 	}
+	
+	@Test
+	public void test4() {
+		Assert.assertTrue(obj.sayHello("Manish").contains("Hello"));
+	}
 
 }
