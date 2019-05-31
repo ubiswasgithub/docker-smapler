@@ -16,5 +16,10 @@ public class GreetingsTest {
 	public void test2() {
 		Assert.assertTrue(obj.sayHello("Manish").contains("Hello2"));
 	}
+	
+	@Test
+	public void test3() {
+		Assert.assertTrue(obj.sayHello("Manish").contains("Hello"));
+	}
 
 }
